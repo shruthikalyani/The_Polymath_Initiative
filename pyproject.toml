@@ -1,0 +1,19 @@
+[project]
+name = "the-polymath-initiative"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bert-score>=0.3.13",
+    "dotenv>=0.9.9",
+    "groq>=1.6.0",
+    "letta>=0.16.8",
+    "nltk>=3.10.3",
+    "numpy>=2.5.2",
+    "regex>=2026.8.31",
+    "seaborn>=0.13.2",
+    "tiktoken>=0.14.0",
+    "tqdm>=4.70.0",
+    "typing>=3.10.0.0",
+]

@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.qodo
+C:\Users\neela\Downloads\The_Polymath_Initiative\results_rag_llama_8B_full_dialog
+C:\Users\neela\Downloads\The_Polymath_Initiative\task_eval
+C:\Users\neela\Downloads\The_Polymath_Initiative\generative_agents
+.env
+C:\Users\neela\Downloads\The_Polymath_Initiative\track1-protocol.pdf
+C:\Users\neela\Downloads\The_Polymath_Initiative\branding
+C:\Users\neela\Downloads\The_Polymath_Initiative\colab_code
+C:\Users\neela\Downloads\The_Polymath_Initiative\generative_agents
+C:\Users\neela\Downloads\The_Polymath_Initiative\api_switcher.py
+C:\Users\neela\Downloads\The_Polymath_Initiative\test.py
+C:\Users\neela\Downloads\The_Polymath_Initiative\main.pdf
+# Local/Colab evaluation artifacts
+memory_cache/
+
+.env
