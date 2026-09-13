@@ -1,0 +1,731 @@
+{
+  "experiment": "part5_summaries_raw_tiered_paged",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "dataset": "LoCoMo",
+  "status": "test",
+  "samples_tested": 1,
+  "questions_processed": 10,
+  "results": [
+    {
+      "question": "When did Caroline go to the LGBTQ support group?",
+      "ground_truth": "7 May 2023",
+      "prediction": "Last Tuesday.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 2,
+      "evidence": [
+        "D1:3"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 8:56 pm on 20 July, 2023] Hey Mel! A lot's happened since we last chatted - I just joined a new LGBTQ activist group last Tues. I'm meeting so many cool people who are as passionate as I am about rights and community support. I'm giving my voice and making a real difference, plus it's fulfilling in so many ways. It's just great, you know?",
+            "metadata": {
+              "dia_id": "D10:3",
+              "session": 10,
+              "session_date_time": "8:56 pm on 20 July, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 8:56 pm on 20 July, 2023] Thanks, Melanie! It's awesome to have our own platform to be ourselves and support others' rights. Our group, 'Connected LGBTQ Activists', is made of all kinds of people investing in positive changes. We have regular meetings, plan events and campaigns, to get together and support each other.",
+            "metadata": {
+              "dia_id": "D10:5",
+              "session": 10,
+              "session_date_time": "8:56 pm on 20 July, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] The room was electric with energy and support! The posters were amazing, so much pride and strength! It inspired me to make some art.",
+            "metadata": {
+              "dia_id": "D17:21",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 1:51 pm on 15 July, 2023] Wow, Mel, family love and support is the best!",
+            "metadata": {
+              "dia_id": "D8:31",
+              "session": 8,
+              "session_date_time": "1:51 pm on 15 July, 2023"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question": "When did Melanie paint a sunrise?",
+      "ground_truth": 2022,
+      "prediction": "There is no information about Melanie painting a sunrise.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 2,
+      "evidence": [
+        "D1:12"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Yeah, Here's one I did last week. It's inspired by the sunsets. The colors make me feel calm. What have you been up to lately, artistically?",
+            "metadata": {
+              "dia_id": "D17:12",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Wow Mel, that's stunning! Love the colors and the chilled-out sunset vibe. What made you paint it? I've been trying out abstract stuff recently. It's kinda freeing, just putting my feelings on the canvas without too much of a plan. It's like a cool form of self-expression.",
+            "metadata": {
+              "dia_id": "D17:13",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Thanks, Caroline! I painted it because it was calming. I've done an abstract painting too, take a look! I love how art lets us get our emotions out.",
+            "metadata": {
+              "dia_id": "D17:14",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] I wanted a peaceful blue streaks to show tranquility. Blue calms me, so I wanted the painting to have a serene vibe while still having lots of vibrant colors.",
+            "metadata": {
+              "dia_id": "D17:16",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Date: 13 October, 2023\n- Time: 10:31 am\n- Melanie is considering adoption and received advice from Caroline on the process.\n- Caroline recommended researching adoption agencies or lawyers and preparing emotionally for the wait.\n\n**Names:**\n\n- Caroline\n- Melanie\n\n**Relationship:**\n\n- Caroline and Melanie are friends or acquaintances, as they have a familiar conversation and share personal interests.\n\n**Preferences:**\n\n- Melanie prefers pottery and painting as creative outlets for self-expression and relaxation.\n- Caroline enjoys abstract art and finds it a form of self-expression.\n\n**Important Events:**\n\n- Melanie had a setback last month, getting hurt and taking a break from pottery.\n- Melanie has been reading a book recommended by Caroline and has been painting to keep busy.\n\n**Details that may help answer future questions:**\n\n- Melanie has been using art as a way to express emotions and find calm.\n- Caroline has been trying out abstract art and finds it freeing.\n- Melanie's painting of a sunset is inspired by the calming colors and feelings it evokes.\n- Melanie's abstract painting features blue streaks to convey tranquility and a serene vibe."
+        }
+      ]
+    },
+    {
+      "question": "What fields would Caroline be likely to pursue in her educaton?",
+      "ground_truth": "Psychology, counseling certification",
+      "prediction": "Art, Education, or a related field that supports the LGBTQ community.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 3,
+      "evidence": [
+        "D1:9",
+        "D1:11"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation between Melanie and Caroline on 15 July, 2023**\n\n- **Relationship:** Melanie and Caroline are in a session together, likely a therapy or counseling session.\n- **Important Facts:**\n  - Melanie has found courage to be herself, which is important for mental health and finding peace.\n  - Caroline has been on a long journey of self-improvement and is proud of her progress.\n- **Names:**\n  - Melanie\n  - Caroline\n- **Dates:**\n  - 15 July, 2023\n- **Preferences:**\n  - Melanie finds peace through creativity and family.\n  - Caroline values family love and support.\n- **Important Events:**\n  - Melanie's family has been supportive during her move.\n  - Melanie's family has gone on a camping trip in the forest.\n  - Melanie's family enjoys hiking in the mountains and exploring forests.\n- **Details:**\n  - Melanie's family has shown lots of love and support.\n  - Melanie's family has helped her through tough times.\n  - Melanie values family time and connecting with nature."
+        },
+        {
+          "type": "summary",
+          "content": "**Session Date:** 14 August 2023, 2:24 pm\n\n**Participants:**\n\n1. Caroline (artist, trans individual)\n2. Melanie (friend and conversational partner)\n\n**Important Facts:**\n\n- Caroline is an artist who represents inclusivity and diversity in her work.\n- Caroline's art is about expressing her trans experience and helping people understand the trans community.\n- Caroline's art aims to promote acceptance, love, and self-acceptance.\n\n**Relationships:**\n\n- Caroline and Melanie are friends.\n- Caroline and Melanie share a conversation about Caroline's art and its significance.\n\n**Preferences:**\n\n- Caroline values inclusivity and diversity in her art.\n- Caroline prefers to use her art to speak up for the LGBTQ+ community and push for acceptance.\n\n**Important Events:**\n\n- Caroline attended an event celebrating love and acceptance (date not specified).\n- Caroline shared her art with Melanie, including a recent painting and another titled 'Embracing Identity'.\n\n**Details that may help answer future questions:**\n\n- Caroline's art explores her transition and changing body.\n- Caroline finds art to be a healing and self-discovery tool.\n- Caroline values the beauty of imperfections in her art and life."
+        },
+        {
+          "type": "summary",
+          "content": "**Session Details:**\n- Date: 23 August 2023\n- Time: 3:31 pm\n\n**Participants:**\n- Melanie\n- Caroline\n\n**Relationship:**\n- The conversation appears to be between friends or acquaintances, as they share personal experiences and show appreciation for each other's work.\n\n**Interests and Preferences:**\n- Melanie enjoys painting horses and finds it peaceful.\n- Caroline likes painting and finds it therapeutic, as it helps her express herself and explore her identity.\n\n**Artwork:**\n- Melanie shared a recent horse painting she created.\n- Caroline shared a recent self-portrait she made, which she felt liberated and empowered while creating.\n\n**Personal Growth and Values:**\n- Caroline values being true to herself, promoting LGBTQ rights, and living authentically.\n- Caroline is on an adoption journey and is excited for the future.\n\n**Key Events:**\n- Caroline shared that she made her self-portrait last week.\n- Melanie wished Caroline the best on her adoption journey."
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary**\n\n- **Date:** 25 August, 2023\n- **Time:** 1:33 pm\n- **Participants:** Melanie and Caroline\n- **Relationship:** Friends or acquaintances (no specific relationship mentioned)\n- **Topic:** Appreciation of art and creativity\n- **Important Facts:**\n  - Caroline found a rainbow sidewalk in her neighborhood during Pride Month.\n  - The rainbow sidewalk was a symbol of togetherness, celebrating differences, and promoting love and acceptance.\n  - Caroline enjoys drawing flowers and appreciates nature.\n  - Art can be a source of joy and a mood-booster.\n- **Preferences:**\n  - Caroline prefers drawing flowers and appreciates nature.\n  - Melanie appreciates art in general.\n- **Important Events:**\n  - Caroline found the rainbow sidewalk during Pride Month.\n- **Details:**\n  - Caroline took a picture of the rainbow sidewalk.\n  - Caroline saw someone drawing on the ground, which made her happy.\n  - Melanie admired Caroline's drawing of flowers."
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation**\n\n- **Date:** 28 August 2023, 3:19 pm\n- **Participants:** Caroline and Melanie\n- **Relationship:** Caroline and Melanie are likely friends or colleagues, given their conversation about Caroline's volunteering experience.\n- **Event:** Caroline volunteered at a youth center, where she connected with young people and shared her story to offer support.\n- **Importance:** Caroline felt fulfilled and made a positive impact on the young people, which motivated her to continue volunteering.\n- **Future plans:** Caroline plans to continue volunteering at the youth center, including organizing a talent show for the kids.\n- **Shared interest:** Melanie enjoys live music, as mentioned in the conversation.\n- **Key details:** Caroline's volunteering experience was emotionally powerful, and she believes in the importance of community and supporting each other."
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary**\n\n- **Date:** 28 August, 2023\n- **Time:** 3:19 pm\n- **Participants:** Caroline and Melanie\n- **Relationship:** Friends or acquaintances (no specific relationship mentioned)\n- **Event:** Discussing music and its impact on their lives\n- **Important Facts:**\n  - Caroline plays the guitar, specifically acoustic guitar.\n  - She started playing about five years ago.\n  - Her favorite song is \"Brave\" by Sara Bareilles.\n- **Names:**\n  - Caroline\n  - Melanie\n  - Sara Bareilles (singer of \"Brave\")\n- **Preferences:**\n  - Caroline prefers playing acoustic guitar.\n  - She enjoys listening to pop music and singing along.\n- **Important Events:**\n  - Caroline and Melanie discussed their shared love of music and its impact on their lives.\n  - They talked about the song \"Brave\" by Sara Bareilles, which holds significance for Caroline.\n- **Details:**\n  - Caroline finds playing guitar to be a way to express herself and connect with others.\n  - She believes music can be cathartic and uplifting."
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation between Caroline and Melanie**\n\n**Important Facts:**\n\n- The conversation took place on two separate dates: 13 September 2023 (12:09 am) and 13 October 2023 (10:31 am).\n- Melanie had a positive experience at the park on 13 September 2023.\n\n**Names:**\n\n- Caroline\n- Melanie\n\n**Relationships:**\n\n- Caroline and Melanie are friends.\n\n**Preferences:**\n\n- Caroline is interested in adoption and wants to provide a safe, loving home for kids who need it.\n- Melanie is considering adoption after hearing about her friend's experience.\n\n**Important Events:**\n\n- Caroline contacted her mentor for adoption advice on 13 October 2023.\n- Melanie's friend adopted a child last year.\n\n**Details that may help answer future questions:**\n\n- Caroline is ready to start the adoption process and is looking for support.\n- Melanie is considering adoption and may need advice or help in the future.\n- Caroline's friend is happy with their adopted child, which may be a good reference for Melanie."
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary:**\n\n- **Date:** 13 October 2023\n- **Time:** 10:31 am\n- **Participants:** Caroline and Melanie\n- **Event:** Caroline attended a poetry reading on 6 October 2023 (last Friday).\n- **Event Details:** The poetry reading was a transgender poetry reading where transgender people shared their stories through poetry.\n- **Event Significance:** The event was a safe place for self-expression and was empowering for those who attended.\n- **Caroline's Artwork:** Caroline drew a poster inspired by the event, which represents freedom and being true to oneself.\n- **Relationship:** Caroline and Melanie have a supportive relationship, encouraging each other to be themselves.\n- **Themes:** The conversation revolves around self-expression, empowerment, and the importance of being true to oneself."
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation between Melanie and Caroline**\n\n- **Relationship:** Melanie and Caroline are friends.\n- **Important Events:**\n  - Melanie went camping with her family two weekends ago (no specific date mentioned).\n  - Caroline joined a mentorship program for LGBTQ youth.\n  - Caroline attended an LGBT pride event last month (no specific date mentioned).\n- **Preferences:**\n  - Melanie enjoys spending time with her family and friends.\n  - Caroline is passionate about helping the LGBTQ community.\n- **Important Facts:**\n  - Caroline mentors a transgender teen who is similar to her.\n  - The mentoring program is rewarding for Caroline.\n- **Dates:**\n  - 15 July, 2023: Melanie and Caroline had a conversation.\n  - 17 July, 2023: Melanie and Caroline had another conversation.\n- **Names:**\n  - Melanie\n  - Caroline"
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation**\n\n- **Date:** 17 July, 2023\n- **Time:** 2:31 pm\n- **Participants:** Melanie and Caroline\n- **Relationship:** Caroline and Melanie are involved in LGBTQ advocacy together.\n- **Event:** Pride event (no specific date mentioned)\n- **Important moment:** Caroline's mentee's face lit up with support at the pride event.\n- **Upcoming event:** Caroline's LGBTQ art show (next month, no specific date mentioned)\n- **Caroline's art:** She is showcasing her paintings at the art show, inspired by a visit to a LGBTQ center.\n- **Inspiration:** Caroline's art aims to capture the unity and strength of the LGBTQ community.\n\n**Key Facts and Details:**\n\n- Caroline's mentee felt appreciated at the pride event.\n- Caroline's art show is a solo exhibition of her paintings.\n- Caroline's art is inspired by her visit to a LGBTQ center.\n- The art show is a part of Caroline's LGBTQ advocacy efforts."
+        }
+      ]
+    },
+    {
+      "question": "What did Caroline research?",
+      "ground_truth": "Adoption agencies",
+      "prediction": "Adoption agencies or lawyers.",
+      "exact_match": 0,
+      "f1": 0.6666666666666666,
+      "category": 1,
+      "evidence": [
+        "D2:8"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Yep! Do your research and find an adoption agency or lawyer. They'll help with the process and provide all the info. Gather documents like references, financial info and medical checks. Don't forget to prepare emotionally, since the wait can be hard. It's all worth it in the end though.",
+            "metadata": {
+              "dia_id": "D17:7",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Wow Mel, that's stunning! Love the colors and the chilled-out sunset vibe. What made you paint it? I've been trying out abstract stuff recently. It's kinda freeing, just putting my feelings on the canvas without too much of a plan. It's like a cool form of self-expression.",
+            "metadata": {
+              "dia_id": "D17:13",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Date: 13 October, 2023\n- Time: 10:31 am\n- Melanie is considering adoption and received advice from Caroline on the process.\n- Caroline recommended researching adoption agencies or lawyers and preparing emotionally for the wait.\n\n**Names:**\n\n- Caroline\n- Melanie\n\n**Relationship:**\n\n- Caroline and Melanie are friends or acquaintances, as they have a familiar conversation and share personal interests.\n\n**Preferences:**\n\n- Melanie prefers pottery and painting as creative outlets for self-expression and relaxation.\n- Caroline enjoys abstract art and finds it a form of self-expression.\n\n**Important Events:**\n\n- Melanie had a setback last month, getting hurt and taking a break from pottery.\n- Melanie has been reading a book recommended by Caroline and has been painting to keep busy.\n\n**Details that may help answer future questions:**\n\n- Melanie has been using art as a way to express emotions and find calm.\n- Caroline has been trying out abstract art and finds it freeing.\n- Melanie's painting of a sunset is inspired by the calming colors and feelings it evokes.\n- Melanie's abstract painting features blue streaks to convey tranquility and a serene vibe."
+        }
+      ]
+    },
+    {
+      "question": "What is Caroline's identity?",
+      "ground_truth": "Transgender woman",
+      "prediction": "A trans woman.",
+      "exact_match": 0,
+      "f1": 0.4,
+      "category": 1,
+      "evidence": [
+        "D1:5"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 2:24 pm on 14 August, 2023] Thanks, Melanie. Here's one- 'Embracing Identity' is all about finding comfort and love in being yourself. The woman in the painting stands for the journey of acceptance. My aim was to show warmth, love and self-acceptance.",
+            "metadata": {
+              "dia_id": "D11:12",
+              "session": 11,
+              "session_date_time": "2:24 pm on 14 August, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 3:31 pm on 23 August, 2023] Thanks, Mel! I felt liberated and empowered doing it. Painting helps me explore my identity and be true to myself. It's definitely therapeutic.",
+            "metadata": {
+              "dia_id": "D13:13",
+              "session": 13,
+              "session_date_time": "3:31 pm on 23 August, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Caroline has been into art since she was 17 years old.\n- Melanie has been into art for 7 years, specifically painting and pottery.\n- Caroline's art has helped her express her feelings and explore her gender identity during her transition.\n- Caroline is a trans woman.\n\n**Names:**\n\n- Caroline\n- Melanie\n\n**Dates:**\n\n- 13 September 2023 (session date)\n\n**Relationships:**\n\n- Caroline and Melanie are friends who support each other in their art and personal journeys.\n- Caroline has close friends who supported her during her transition, but some friends were unable to handle the change.\n\n**Preferences:**\n\n- Caroline prefers painting and drawing as a form of art.\n- Melanie prefers painting and pottery as a form of art.\n\n**Important Events:**\n\n- Caroline's transition and her journey of self-discovery and acceptance.\n- Melanie's discovery of her passion for painting and pottery.\n\n**Details that may help answer future questions:**\n\n- Caroline's art piece, which represents her path as a trans woman, features red and blue colors to symbolize the binary gender system and the mix of colors to represent smashing rigid thinking.\n- Melanie's pottery creations, which she finds calming and satisfying, have unique designs.\n- Caroline"
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.",
+          "metadata": {
+            "dia_id": "D19:9",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Yeah, it's very calming. It's awesome how art can show emotions. By the way, I went to a poetry reading last Fri - it was really powerful! Ever been to one?",
+            "metadata": {
+              "dia_id": "D17:17",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Thanks, Melanie! Yeah, I drew it. It stands for freedom and being real. It's like a nudge to always stay true to myself and embrace my womanhood.",
+            "metadata": {
+              "dia_id": "D17:23",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Yep, Caroline. Life's about learning and exploring. Glad we can be on this trip together.",
+            "metadata": {
+              "dia_id": "D17:26",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary:**\n\n- **Date:** 13 October 2023\n- **Time:** 10:31 am\n- **Participants:** Caroline and Melanie\n- **Event:** Caroline attended a poetry reading on 6 October 2023 (last Friday).\n- **Event Details:** The poetry reading was a transgender poetry reading where transgender people shared their stories through poetry.\n- **Event Significance:** The event was a safe place for self-expression and was empowering for those who attended.\n- **Caroline's Artwork:** Caroline drew a poster inspired by the event, which represents freedom and being true to oneself.\n- **Relationship:** Caroline and Melanie have a supportive relationship, encouraging each other to be themselves.\n- **Themes:** The conversation revolves around self-expression, empowerment, and the importance of being true to oneself."
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 6:55 pm on 20 October, 2023] Hey Caroline, that roadtrip this past weekend was insane! We were all freaked when my son got into an accident. We were so lucky he was okay. It was a real scary experience. Thankfully it's over now. What's been up since we last talked?",
+            "metadata": {
+              "dia_id": "D18:1",
+              "session": 18,
+              "session_date_time": "6:55 pm on 20 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 6:55 pm on 20 October, 2023] Oops, sorry 'bout the accident! Must have been traumatizing for you guys. Thank goodness your son's okay. Life sure can be a roller coaster.",
+            "metadata": {
+              "dia_id": "D18:2",
+              "session": 18,
+              "session_date_time": "6:55 pm on 20 October, 2023"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question": "When did Melanie run a charity race?",
+      "ground_truth": "The sunday before 25 May 2023",
+      "prediction": "There is no information about Melanie running a charity race.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 2,
+      "evidence": [
+        "D2:1"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Nope, never been to something like that. What was it about? What made it so special?",
+            "metadata": {
+              "dia_id": "D17:18",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary:**\n\n- **Date:** 13 October 2023\n- **Time:** 10:31 am\n- **Participants:** Caroline and Melanie\n- **Event:** Caroline attended a poetry reading on 6 October 2023 (last Friday).\n- **Event Details:** The poetry reading was a transgender poetry reading where transgender people shared their stories through poetry.\n- **Event Significance:** The event was a safe place for self-expression and was empowering for those who attended.\n- **Caroline's Artwork:** Caroline drew a poster inspired by the event, which represents freedom and being true to oneself.\n- **Relationship:** Caroline and Melanie have a supportive relationship, encouraging each other to be themselves.\n- **Themes:** The conversation revolves around self-expression, empowerment, and the importance of being true to oneself."
+        }
+      ]
+    },
+    {
+      "question": "When is Melanie planning on going camping?",
+      "ground_truth": "June 2023",
+      "prediction": "A few weeks ago.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 2,
+      "evidence": [
+        "D2:7"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 6:55 pm on 20 October, 2023] Absolutely! It really helps me reset and recharge. I love camping trips with my fam, 'cause nature brings such peace and serenity.",
+            "metadata": {
+              "dia_id": "D18:19",
+              "session": 18,
+              "session_date_time": "6:55 pm on 20 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 8:56 pm on 20 July, 2023] We always look forward to our family camping trip. We roast marshmallows, tell stories around the campfire and just enjoy each other's company. It's the highlight of our summer!",
+            "metadata": {
+              "dia_id": "D10:12",
+              "session": 10,
+              "session_date_time": "8:56 pm on 20 July, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation**\n\n- **Date:** 20 July 2023\n- **Participants:** Melanie and Caroline\n- **Relationship:** Friends or acquaintances, as they are having a casual conversation\n- **Important Facts:**\n  - Melanie's family goes to the beach once or twice a year.\n  - They also have a family camping trip during the summer.\n  - Melanie's family saw the Perseid meteor shower during their camping trip last year.\n- **Names:** Melanie and Caroline\n- **Preferences:**\n  - Melanie enjoys spending time with her family and making memories with them.\n  - She appreciates the beauty of nature and the universe.\n- **Important Events:**\n  - Melanie's family beach trip\n  - Family camping trip\n  - Seeing the Perseid meteor shower\n- **Details that may help answer future questions:**\n  - Melanie's family camping trip is the highlight of their summer.\n  - They roast marshmallows, tell stories, and enjoy each other's company during the camping trip.\n  - The Perseid meteor shower was a memorable experience for Melanie, and she felt tiny and in awe of the universe."
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 12:09 am on 13 September, 2023] Hey Caroline! It's so good to hear from you! That pic is so beautiful, the colors really pop. Biking sounds like a great way to get out in nature. We went camping with the kids a few weeks ago, had a blast exploring the forest and hiking. Nature can be so refreshing for your soul. Any plans coming up?",
+            "metadata": {
+              "dia_id": "D16:2",
+              "session": 16,
+              "session_date_time": "12:09 am on 13 September, 2023"
+            }
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] I totally agree, Caroline. Everyone deserves that. It's awesome to see how passionate you are about helping these kids.",
+          "metadata": {
+            "dia_id": "D19:6",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] That must have been tough for you, Caroline. Respect for finding acceptance and helping others with what you've been through. You're so strong and inspiring.",
+          "metadata": {
+            "dia_id": "D19:8",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.",
+          "metadata": {
+            "dia_id": "D19:9",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] I'm so happy for you, Caroline. You found your true self and now you're helping others. You're so inspiring!",
+          "metadata": {
+            "dia_id": "D19:10",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Melanie. Your support really means a lot. This journey has been amazing and I'm grateful I get to share it and help others with theirs. It's a real gift.",
+          "metadata": {
+            "dia_id": "D19:11",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Absolutely! I'm so glad we can always be there for each other.",
+          "metadata": {
+            "dia_id": "D19:12",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is Caroline's relationship status?",
+      "ground_truth": "Single",
+      "prediction": "Caroline is on an adoption journey.",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 1,
+      "evidence": [
+        "D3:13",
+        "D2:14"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Date: 13 October, 2023\n- Time: 10:31 am\n- Melanie is considering adoption and received advice from Caroline on the process.\n- Caroline recommended researching adoption agencies or lawyers and preparing emotionally for the wait.\n\n**Names:**\n\n- Caroline\n- Melanie\n\n**Relationship:**\n\n- Caroline and Melanie are friends or acquaintances, as they have a familiar conversation and share personal interests.\n\n**Preferences:**\n\n- Melanie prefers pottery and painting as creative outlets for self-expression and relaxation.\n- Caroline enjoys abstract art and finds it a form of self-expression.\n\n**Important Events:**\n\n- Melanie had a setback last month, getting hurt and taking a break from pottery.\n- Melanie has been reading a book recommended by Caroline and has been painting to keep busy.\n\n**Details that may help answer future questions:**\n\n- Melanie has been using art as a way to express emotions and find calm.\n- Caroline has been trying out abstract art and finds it freeing.\n- Melanie's painting of a sunset is inspired by the calming colors and feelings it evokes.\n- Melanie's abstract painting features blue streaks to convey tranquility and a serene vibe."
+        },
+        {
+          "type": "summary",
+          "content": "**Conversation Summary:**\n\n- **Date:** 13 October 2023\n- **Time:** 10:31 am\n- **Participants:** Caroline and Melanie\n- **Event:** Caroline attended a poetry reading on 6 October 2023 (last Friday).\n- **Event Details:** The poetry reading was a transgender poetry reading where transgender people shared their stories through poetry.\n- **Event Significance:** The event was a safe place for self-expression and was empowering for those who attended.\n- **Caroline's Artwork:** Caroline drew a poster inspired by the event, which represents freedom and being true to oneself.\n- **Relationship:** Caroline and Melanie have a supportive relationship, encouraging each other to be themselves.\n- **Themes:** The conversation revolves around self-expression, empowerment, and the importance of being true to oneself."
+        },
+        {
+          "type": "summary",
+          "content": "**Date:** 17 August 2023\n**Time:** 1:50 pm\n**Participants:** Caroline and Melanie\n**Relationship:** Close friends\n**Conversation Topics:**\n- Importance of surrounding oneself with things that bring joy\n- Appreciation for supportive friends\n- Shared experiences:\n  - Pride fest last year\n  - Desire for a family outing or a special event just for the two of them\n- Plans: \n  - Melanie suggests a family outing, but Caroline proposes a special event just for the two of them to catch up and explore nature.\n  - They agree to plan something special together.\n\n**Key Details:**\n\n- Caroline and Melanie value their friendship and appreciate each other's support.\n- They have fond memories of attending Pride fest together.\n- They are considering planning a special event for the summer, either a family outing or a solo event for the two of them."
+        },
+        {
+          "type": "summary",
+          "content": "**Session Details:**\n- Date: 23 August 2023\n- Time: 3:31 pm\n\n**Participants:**\n- Melanie\n- Caroline\n\n**Relationship:**\n- The conversation appears to be between friends or acquaintances, as they share personal experiences and show appreciation for each other's work.\n\n**Interests and Preferences:**\n- Melanie enjoys painting horses and finds it peaceful.\n- Caroline likes painting and finds it therapeutic, as it helps her express herself and explore her identity.\n\n**Artwork:**\n- Melanie shared a recent horse painting she created.\n- Caroline shared a recent self-portrait she made, which she felt liberated and empowered while creating.\n\n**Personal Growth and Values:**\n- Caroline values being true to herself, promoting LGBTQ rights, and living authentically.\n- Caroline is on an adoption journey and is excited for the future.\n\n**Key Events:**\n- Caroline shared that she made her self-portrait last week.\n- Melanie wished Caroline the best on her adoption journey."
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Wow Mel, that's stunning! Love the colors and the chilled-out sunset vibe. What made you paint it? I've been trying out abstract stuff recently. It's kinda freeing, just putting my feelings on the canvas without too much of a plan. It's like a cool form of self-expression.",
+            "metadata": {
+              "dia_id": "D17:13",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 10:31 am on 13 October, 2023] Yeah, it's very calming. It's awesome how art can show emotions. By the way, I went to a poetry reading last Fri - it was really powerful! Ever been to one?",
+            "metadata": {
+              "dia_id": "D17:17",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Melanie",
+            "message": "[Session date: 10:31 am on 13 October, 2023] That's awesome, Caroline! You drew it? What does it mean to you?",
+            "metadata": {
+              "dia_id": "D17:22",
+              "session": 17,
+              "session_date_time": "10:31 am on 13 October, 2023"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question": "When did Caroline give a speech at a school?",
+      "ground_truth": "The week before 9 June 2023",
+      "prediction": "There is no information in the memory about Caroline giving a speech at a school.",
+      "exact_match": 0,
+      "f1": 0.09523809523809522,
+      "category": 2,
+      "evidence": [
+        "D3:1"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 6:55 pm on 20 October, 2023] Our loved ones give us strength to tackle any challenge - it's amazing!",
+            "metadata": {
+              "dia_id": "D18:10",
+              "session": 18,
+              "session_date_time": "6:55 pm on 20 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Date: 20 October, 2023\n- Time: 6:55 pm\n- Melanie's son was involved in an accident during a road trip.\n- Melanie's son is okay.\n\n**Names:**\n\n- Melanie\n- Caroline\n- Melanie's son (no name mentioned)\n\n**Relationships:**\n\n- Melanie and Caroline are friends.\n- Melanie has children (at least one son).\n\n**Preferences:**\n\n- Melanie values her family and considers them important.\n- Melanie cherishes her family and is thankful to have them.\n\n**Important Events:**\n\n- Melanie's son was involved in an accident during a road trip.\n- The road trip included a visit to the Grand Canyon.\n\n**Details that may help answer future questions:**\n\n- Melanie's son was scared but reassured by his parents after the accident.\n- Melanie's children are resilient and able to bounce back from tough situations.\n- Melanie finds strength in her children and values their presence in her life."
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 2:24 pm on 14 August, 2023] Wow, Mel, glad you had a blast at the concert. A lot's happened since we talked. I went to a pride parade last Friday and it was awesome - so much energy and love everywhere. Really made me proud and reminded me how important it is to keep standing up for equality.",
+            "metadata": {
+              "dia_id": "D11:4",
+              "session": 11,
+              "session_date_time": "2:24 pm on 14 August, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 1:50 pm on 17 August, 2023] I'm always here for you, Mel! We had a blast last year at the Pride fest. Those supportive friends definitely make everything worth it!",
+            "metadata": {
+              "dia_id": "D12:15",
+              "session": 12,
+              "session_date_time": "1:50 pm on 17 August, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 3:31 pm on 23 August, 2023] Hi Melanie! Hope you're doing good. Guess what I did this week? I took the first step towards becoming a mom - I applied to adoption agencies! It's a big decision, but I think I'm ready to give all my love to a child. I got lots of help from this adoption advice/assistance group I attended. It was great!",
+            "metadata": {
+              "dia_id": "D13:1",
+              "session": 13,
+              "session_date_time": "3:31 pm on 23 August, 2023"
+            }
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] I totally agree, Caroline. Everyone deserves that. It's awesome to see how passionate you are about helping these kids.",
+          "metadata": {
+            "dia_id": "D19:6",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Mel. Finding self-acceptance was a long process, but now I'm ready to offer love and support to those who need it. It's empowering to make a positive difference in someone's life.",
+          "metadata": {
+            "dia_id": "D19:7",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] That must have been tough for you, Caroline. Respect for finding acceptance and helping others with what you've been through. You're so strong and inspiring.",
+          "metadata": {
+            "dia_id": "D19:8",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.",
+          "metadata": {
+            "dia_id": "D19:9",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "speaker": "Melanie",
+          "message": "[Session date: 9:55 am on 22 October, 2023] I'm so happy for you, Caroline. You found your true self and now you're helping others. You're so inspiring!",
+          "metadata": {
+            "dia_id": "D19:10",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        }
+      ]
+    },
+    {
+      "question": "When did Caroline meet up with her friends, family, and mentors?",
+      "ground_truth": "The week before 9 June 2023",
+      "prediction": "13 September, 2023",
+      "exact_match": 0,
+      "f1": 0.0,
+      "category": 2,
+      "evidence": [
+        "D3:11"
+      ],
+      "retrieved_memories": [
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation between Melanie and Caroline**\n\n- **Relationship:** Melanie and Caroline are friends.\n- **Important Events:**\n  - Melanie went camping with her family two weekends ago (no specific date mentioned).\n  - Caroline joined a mentorship program for LGBTQ youth.\n  - Caroline attended an LGBT pride event last month (no specific date mentioned).\n- **Preferences:**\n  - Melanie enjoys spending time with her family and friends.\n  - Caroline is passionate about helping the LGBTQ community.\n- **Important Facts:**\n  - Caroline mentors a transgender teen who is similar to her.\n  - The mentoring program is rewarding for Caroline.\n- **Dates:**\n  - 15 July, 2023: Melanie and Caroline had a conversation.\n  - 17 July, 2023: Melanie and Caroline had another conversation.\n- **Names:**\n  - Melanie\n  - Caroline"
+        },
+        {
+          "speaker": "Caroline",
+          "message": "[Session date: 9:55 am on 22 October, 2023] Thanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.",
+          "metadata": {
+            "dia_id": "D19:9",
+            "session": 19,
+            "session_date_time": "9:55 am on 22 October, 2023"
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Date: 20 October, 2023\n- Time: 6:55 pm\n- Melanie's son was involved in an accident during a road trip.\n- Melanie's son is okay.\n\n**Names:**\n\n- Melanie\n- Caroline\n- Melanie's son (no name mentioned)\n\n**Relationships:**\n\n- Melanie and Caroline are friends.\n- Melanie has children (at least one son).\n\n**Preferences:**\n\n- Melanie values her family and considers them important.\n- Melanie cherishes her family and is thankful to have them.\n\n**Important Events:**\n\n- Melanie's son was involved in an accident during a road trip.\n- The road trip included a visit to the Grand Canyon.\n\n**Details that may help answer future questions:**\n\n- Melanie's son was scared but reassured by his parents after the accident.\n- Melanie's children are resilient and able to bounce back from tough situations.\n- Melanie finds strength in her children and values their presence in her life."
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Melanie has a youngest child who took her first steps.\n- Melanie's family is a source of joy and love for her.\n- Melanie's daughter had a birthday celebration on an unspecified date in August 2023.\n- Melanie attended a concert by Matt Patterson with her family.\n\n**Names:**\n\n- Melanie\n- Caroline\n- Matt Patterson\n\n**Dates:**\n\n- 20 July 2023: Melanie shared a story about her youngest child's first steps.\n- 14 August 2023: Melanie shared a story about her daughter's birthday celebration.\n- Last Friday in August 2023 (unspecified date): Caroline attended a pride parade.\n\n**Relationships:**\n\n- Melanie and Caroline are friends.\n- Melanie is a mother to her youngest child and possibly other children.\n\n**Preferences:**\n\n- Melanie values family and love.\n- Melanie enjoys music and attending concerts.\n\n**Important Events:**\n\n- Melanie's youngest child took her first steps.\n- Melanie's daughter had a birthday celebration.\n- Caroline attended a pride parade.\n\n**Details that may help answer future questions:**\n\n- Melanie's youngest child's first steps were a significant moment for her.\n- Melanie's family is a source of joy and love.\n- Melanie values music and attending"
+        },
+        {
+          "type": "summary",
+          "content": "**Date:** 17 August 2023\n**Time:** 1:50 pm\n**Participants:** Caroline and Melanie\n**Relationship:** Close friends\n**Conversation Topics:**\n- Importance of surrounding oneself with things that bring joy\n- Appreciation for supportive friends\n- Shared experiences:\n  - Pride fest last year\n  - Desire for a family outing or a special event just for the two of them\n- Plans: \n  - Melanie suggests a family outing, but Caroline proposes a special event just for the two of them to catch up and explore nature.\n  - They agree to plan something special together.\n\n**Key Details:**\n\n- Caroline and Melanie value their friendship and appreciate each other's support.\n- They have fond memories of attending Pride fest together.\n- They are considering planning a special event for the summer, either a family outing or a solo event for the two of them."
+        },
+        {
+          "type": "summary",
+          "content": "**Date:** 25 August 2023\n**Time:** 1:33 pm\n\n**People involved:**\n\n1. **Melanie**: Participated in a volunteering event at a homeless shelter with her family.\n2. **Caroline**: A transgender woman who found a supportive community and creates art to express herself.\n\n**Important events:**\n\n1. **Volunteering event**: Melanie and her family spent the day at a homeless shelter on an unspecified date before 25 August 2023.\n2. **Art creation**: Caroline created a mural and a stained glass window to express her experiences and values.\n\n**Art and symbols:**\n\n1. **Rainbow flag mural**: Represents the courage and strength of the trans community, with the eagle symbolizing freedom and pride.\n2. **Stained glass window**: Shows time changing our lives and represents Caroline's journey as a transgender woman.\n\n**Relationships and preferences:**\n\n1. **Melanie and Caroline**: Friends who support and motivate each other.\n2. **Caroline's community**: A supportive community that accepts and loves her for who she is.\n\n**Important facts:**\n\n1. **Caroline's transition**: She found a supportive community and it made a huge difference in her life.\n2. **Caroline"
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 12:09 am on 13 September, 2023] I'm inspired seeing my work make a difference for the LGBTQ+ community. Knowing I'm helping create a more loving world is amazing. I'm really thankful for my friends, family and mentors' support. It inspires me to keep making art, too.",
+            "metadata": {
+              "dia_id": "D16:5",
+              "session": 16,
+              "session_date_time": "12:09 am on 13 September, 2023"
+            }
+          }
+        },
+        {
+          "type": "raw",
+          "content": {
+            "speaker": "Caroline",
+            "message": "[Session date: 6:55 pm on 20 October, 2023] That's so peaceful and calming, Melanie! I can picture waking up to nature. It's great that you get to spend quality, tranquil time with your family.",
+            "metadata": {
+              "dia_id": "D18:22",
+              "session": 18,
+              "session_date_time": "6:55 pm on 20 October, 2023"
+            }
+          }
+        },
+        {
+          "type": "summary",
+          "content": "**Summary of Conversation**\n\n- **Date:** 17 July, 2023\n- **Time:** 2:31 pm\n- **Participants:** Melanie and Caroline\n- **Relationship:** Caroline and Melanie are involved in LGBTQ advocacy together.\n- **Event:** Pride event (no specific date mentioned)\n- **Important moment:** Caroline's mentee's face lit up with support at the pride event.\n- **Upcoming event:** Caroline's LGBTQ art show (next month, no specific date mentioned)\n- **Caroline's art:** She is showcasing her paintings at the art show, inspired by a visit to a LGBTQ center.\n- **Inspiration:** Caroline's art aims to capture the unity and strength of the LGBTQ community.\n\n**Key Facts and Details:**\n\n- Caroline's mentee felt appreciated at the pride event.\n- Caroline's art show is a solo exhibition of her paintings.\n- Caroline's art is inspired by her visit to a LGBTQ center.\n- The art show is a part of Caroline's LGBTQ advocacy efforts."
+        },
+        {
+          "type": "summary",
+          "content": "**Important Facts:**\n\n- Caroline and Melanie are friends.\n- Caroline applied to adoption agencies on August 23, 2023, to become a mother.\n- Caroline has a guinea pig named Oscar.\n- Melanie has pets, including a cat named Oliver and a cat named Bailey.\n\n**Names:**\n\n- Caroline\n- Melanie\n- Oscar (guinea pig)\n- Oliver (cat)\n- Bailey (cat)\n\n**Dates:**\n\n- August 17, 2023 (session date)\n- August 23, 2023 (session date)\n\n**Relationships:**\n\n- Caroline and Melanie are friends.\n\n**Preferences:**\n\n- Caroline has a love for horses.\n- Caroline's favorite food for Oscar is parsley.\n\n**Important Events:**\n\n- Caroline applied to adoption agencies to become a mother.\n- Melanie shared a funny story about her cat Oliver hiding a bone in her slipper.\n\n**Details that may help answer future questions:**\n\n- Caroline's decision to become a mother is a big step for her.\n- Caroline has a pet guinea pig named Oscar who eats parsley.\n- Melanie has two cats, Oliver and Bailey."
+        }
+      ]
+    }
+  ]
+}

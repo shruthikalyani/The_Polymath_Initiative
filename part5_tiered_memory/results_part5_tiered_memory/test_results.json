@@ -1,0 +1,14 @@
+{
+  "experiment": "part5_summaries_raw_tiered_paged",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "status": "test",
+  "results": [
+    {
+      "question": "Test question",
+      "ground_truth": "Test answer",
+      "prediction": "Test answer",
+      "exact_match": 1,
+      "f1": 1.0
+    }
+  ]
+}
